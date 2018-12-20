@@ -88,7 +88,11 @@ html {
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
+<<<<<<< HEAD
+  font-family: "Abril Fatface", sans-serif;
+=======
   font-family: "Abril Fatface", serif;
+>>>>>>> 529a80f238167d5ec9c84f5b21046d2db0f5765d
   font-size: 2.5rem;
 }
 
@@ -98,6 +102,7 @@ html {
 }
 .sidebar-nav-item {
   display: block;
+  font-size: 1.5em;
   line-height: 1.75;
 }
 a.sidebar-nav-item:hover,
@@ -106,6 +111,7 @@ a.sidebar-nav-item:focus {
 }
 .sidebar-nav-item.active {
   font-weight: bold;
+  color: aquamarine;
 }
 
 /* Sticky sidebar
