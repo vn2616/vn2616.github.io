@@ -26,7 +26,7 @@
 
       <!-- Link to Social Media platforms with FA icons -->
       <div class="social-button">
-        {% for social in site.socials %}
+        {% for social in site.data.social %}
           <a href="{{ social[1].link }}"><i class="{{ social[1].icon }}"></i></a>
         {% endfor %}
       </div>

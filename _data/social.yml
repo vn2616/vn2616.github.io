@@ -1,0 +1,12 @@
+# Contact links & Font Awesome icons
+github:
+  link: https://github.com/vn2616
+  icon: fab fa-github
+
+facebook:
+  link: https://facebook.com/vn2616
+  icon: fab fa-facebook-square
+
+email:
+  link: mailto:vn[two][six][one][six][at]gmail[dot]com
+  icon: far fa-envelope

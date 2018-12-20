@@ -13,19 +13,8 @@ permalink:        pretty
 title:            Vu Nguyen
 tagline:          'Personal Blog: Tech & Life'
 description:      'computational statistician'
-baseurl:          / # https://vn2616.github.io/
+baseurl:          https://vn2616.github.io/
 
 paginate:         5
 
 # Custom vars
-
-socials:
-  github:
-    link: https://github.com/vn2616
-    icon: fab fa-github
-  facebook:
-    link: https://facebook.com/vn2616
-    icon: fab fa-facebook-square
-  email:
-    link: mailto:vn[two][six][one][six][at]gmail[dot]com
-    icon: far fa-envelope
