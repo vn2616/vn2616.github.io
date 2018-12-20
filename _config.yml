@@ -13,7 +13,7 @@ permalink:        pretty
 title:            Vu Nguyen
 tagline:          'Personal Blog: Tech & Life'
 description:      'computational statistician'
-baseurl:          https://vn2616.github.io/
+baseurl:          / # https://vn2616.github.io/
 
 paginate:         5
 
