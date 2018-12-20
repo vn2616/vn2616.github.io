@@ -1,6 +1,6 @@
 # Dependencies
 markdown:         kramdown
-highlighter:      pygments
+highlighter:      rogue
 # This will require each of these plugins automatically.
 plugins:
   - jekyll-paginate
@@ -11,8 +11,8 @@ permalink:        pretty
 
 # Setup
 title:            Vu Nguyen
-tagline:          'Personal Site'
-description:      'A computational statistician'
+tagline:          'Personal Blog: Tech & Life'
+description:      'computational statistician'
 baseurl:          https://vn2616.github.io/
 
 paginate:         5
@@ -22,10 +22,10 @@ paginate:         5
 socials:
   github:
     link: https://github.com/vn2616
-    icon: github
+    icon: fab fa-github
   facebook:
     link: https://facebook.com/vn2616
-    icon: facebook-square
+    icon: fab fa-facebook-square
   email:
-    link: mailto:vn2616@gmail.com
-    icon: envelope
+    link: mailto:vn[two][six][one][six][at]gmail[dot]com
+    icon: far fa-envelope

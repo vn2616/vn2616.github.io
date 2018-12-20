@@ -25,15 +25,12 @@
       {% endfor %}
 
       <!-- Link to Social Media platforms with FA icons -->
-      {% for social in site.socials %}
-        <a class="sidebar-nav-item" href="{{ social.link }}"><i class="fab fa-{{ social.icon }}"></i></a>
-      {% endfor %}
-      <br><br>
-      <a class="sidebar-nav-item" href="{{ site.socials.facebook.link }}"><i class="fab fa-facebook-f"></i></a>
-      <!--
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
-      <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
-      -->
+      <div class="social-button">
+        {% for social in social_list %}
+          <a href="{{ social[1].link }}"><i class="{{ social[1].icon }}"></i></a>
+        {% endfor %}
+      </div>
+      
     </nav>
 
     <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
