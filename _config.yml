@@ -19,5 +19,13 @@ paginate:         5
 
 # Custom vars
 
-github:
-  repo:           https://github.com/vn2616
+socials:
+  github:
+    link: https://github.com/vn2616
+    icon: github
+  facebook:
+    link: https://facebook.com/vn2616
+    icon: facebook-square
+  email:
+    link: mailto:vn2616@gmail.com
+    icon: envelope
